@@ -7,7 +7,9 @@ This program is an implementation of the famous RSA Algorithm. In this project w
 
 ## Reference
 
-- https://www.youtube.com/watch?v=qa_hksAzpSg
+- Euler’s Totient https://www.youtube.com/watch?v=qa_hksAzpSg
+- GCD https://www.youtube.com/watch?v=cahuG1cEQdY
+- RSA Algorithm https://www.geeksforgeeks.org/rsa-algorithm-cryptography/
 
 ---
 
