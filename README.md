@@ -3,7 +3,7 @@
 
 ## Description
 
-This program is an implementation of the famous RSA Algorithm. In this project we have used Euler’s Totient, GCD, for checking prime numbers, multiplicative inverse, encryption, and decryption. It was required to know and understand every step of the algorithm in a detailed manner. We learned to put together different functions, convert them from a mathematical perspective to a programmer perspective, and produce a completely different output.
+This program is an implementation of the famous RSA Algorithm in **PYTHON**. In this project we have used Euler’s Totient, GCD, for checking prime numbers, multiplicative inverse, encryption, and decryption. It was required to know and understand every step of the algorithm in a detailed manner. We learned to put together different functions, convert them from a mathematical perspective to a programmer perspective, and produce a completely different output.
 
 ## Reference
 
