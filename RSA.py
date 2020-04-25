@@ -31,4 +31,6 @@ def egcd(e,r):
 #                 print("{} = {}x{} + {}".format(r,a,e,b))
 #Multiplicative Inverse
 def mult_inv(e,r):
+ gcd,s,_=eea(e,r)
+    if(gcd!=1):
            
