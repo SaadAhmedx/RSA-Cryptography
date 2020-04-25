@@ -26,8 +26,9 @@ def egcd(e,r):
             a,b=r//e,r%e
             if(b!=0):
                 print("")
+            r=e
+            e=b
 #                 print("{} = {}x{} + {}".format(r,a,e,b))
 #Multiplicative Inverse
 def mult_inv(e,r):
-            r=e
-            e=b
+           
