@@ -32,14 +32,14 @@ def egcd(e,r):    # method defined
 #Multiplicative Inverse
 def mult_inv(e,r):         # method define(mutltiplicative inverse)
  gcd,s,_=eea(e,r)
-    if(gcd!=1):            
+    if(gcd!=1):           #checking conditon 
     return None
     else:  
- #    if(s<0):
+ #    if(s<0):            #checking conditon 
  #    print("")   
 # #   print("s=%d. Since %d is less than 0, s = s(modr), i.e., s=%d."%(s,s,s%r))
 for i in range(1,1000):
- if(egcd(i,r)==1):
+ if(egcd(i,r)==1):            #checking conditon 
         e=i
    print("The value of e is:",e)
 print("*****************************************************")
