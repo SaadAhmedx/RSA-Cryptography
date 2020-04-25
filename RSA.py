@@ -20,4 +20,4 @@ print("Eulers Toitent: {}".format(r))
 def egcd(e,r):
     while(r!=0):
         e,r=r,e%r
-    return e
+    return e #func returning the value
