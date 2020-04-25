@@ -38,3 +38,5 @@ def mult_inv(e,r):
  #    if(s<0):
  #    print("")   
 # #   print("s=%d. Since %d is less than 0, s = s(modr), i.e., s=%d."%(s,s,s%r))
+#         elif(s>0):
+#             print("")  
