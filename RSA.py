@@ -22,9 +22,9 @@ def egcd(e,r):    # method defined
 
    def eugcd(e,r):
     for i in range(1,r):    # for loop applied for euler process
-        while(e!=0):
-            a,b=r//e,r%e
-            if(b!=0):
+        while(e!=0):        # while loop condition
+            a,b=r//e,r%e    # mathematical process
+            if(b!=0):       # if condition
                 print("")
             r=e
             e=b
