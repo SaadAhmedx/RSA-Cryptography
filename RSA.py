@@ -1,7 +1,5 @@
-import math
+import maths
  
-
-#Hardcoded Prime Number
 
 p = 193
 q = 197
