@@ -39,3 +39,5 @@ def mult_inv(e,r):
  #    print("")   
 # #   print("s=%d. Since %d is less than 0, s = s(modr), i.e., s=%d."%(s,s,s%r))
 for i in range(1,1000):
+ if(egcd(i,r)==1):
+        e=i
