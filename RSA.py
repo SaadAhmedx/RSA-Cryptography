@@ -9,7 +9,7 @@ q = 197
  
 #RSA Modulus
 
-n = p * q
+n = p * q # product of 2 numbers
 print("RSA Modulus: {}".format(n))
 
 #Eulers Toitent
