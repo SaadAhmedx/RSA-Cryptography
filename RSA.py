@@ -41,3 +41,5 @@ def mult_inv(e,r):
 for i in range(1,1000):
  if(egcd(i,r)==1):
         e=i
+   print("The value of e is:",e)
+print("*****************************************************")
