@@ -21,7 +21,7 @@ def egcd(e,r):    # method defined
     return e #function returning the value
 
    def eugcd(e,r):
-    for i in range(1,r):
+    for i in range(1,r):    # for loop applied for euler process
         while(e!=0):
             a,b=r//e,r%e
             if(b!=0):
