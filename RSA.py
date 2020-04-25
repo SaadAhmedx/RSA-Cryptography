@@ -44,3 +44,6 @@ for i in range(1,1000):
    print("The value of e is:",e)
 print("*****************************************************")
 Private and Public Keys
+'''CALCULATION OF 'd', PRIVATE KEY, AND PUBLIC KEY.'''
+ print("EUCLID'S ALGORITHM:")
+eugcd(e,r)
