@@ -8,14 +8,14 @@ q = 197  # initializing variable
 #RSA Modulus
 
 n = p * q # product of 2 numbers
-print("RSA Modulus: {}".format(n))
+print("RSA Modulus: {}".format(n)) #print n in format of RSA modulus
 
 #Eulers Toitent
 
 r = (p-1)*(q-1)
 print("Eulers Toitent: {}".format(r))
 
-def egcd(e,r):
+def egcd(e,r):    # method defined
     while(r!=0):
         e,r=r,e%r
     return e #function returning the value
@@ -38,7 +38,3 @@ def mult_inv(e,r):
  #    if(s<0):
  #    print("")   
 # #   print("s=%d. Since %d is less than 0, s = s(modr), i.e., s=%d."%(s,s,s%r))
-#         elif(s>0):
-#             print("")  
-# #             print("s=%d."%(s))
-        return s%r
