@@ -16,15 +16,15 @@ r = (p-1)*(q-1)
 print("Eulers Toitent: {}".format(r))
 
 def egcd(e,r):    # method defined
-    while(r!=0):
+    while(r!=0): #checking condition
         e,r=r,e%r
     return e #function returning the value
 
-   def eugcd(e,r):
+   def eugcd(e,r):          #defining function for gcd
     for i in range(1,r):    # for loop applied for euler process
         while(e!=0):        # while loop condition
             a,b=r//e,r%e    # mathematical process
-            if(b!=0):       # if condition
+            if(b!=0):       # checking condition
                 print("")
             r=e             # swapping process
             e=b
@@ -32,7 +32,7 @@ def egcd(e,r):    # method defined
 #Multiplicative Inverse
 def mult_inv(e,r):         # method define(mutltiplicative inverse)
  gcd,s,_=eea(e,r)
-    if(gcd!=1):
+    if(gcd!=1):            
     return None
     else:  
  #    if(s<0):
