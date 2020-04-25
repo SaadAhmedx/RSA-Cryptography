@@ -27,5 +27,7 @@ def egcd(e,r):
             if(b!=0):
                 print("")
 #                 print("{} = {}x{} + {}".format(r,a,e,b))
+#Multiplicative Inverse
+def mult_inv(e,r):
             r=e
             e=b
