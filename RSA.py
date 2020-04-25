@@ -33,5 +33,6 @@ def egcd(e,r):
 def mult_inv(e,r):
  gcd,s,_=eea(e,r)
     if(gcd!=1):
-    return None
-    else:    
+   
+   FINDS THE HIGHEST POSSIBLE VALUE OF 'e' BETWEEN 1 and 1000 THAT MAKES (e,r) COPRIME
+           
