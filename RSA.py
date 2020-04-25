@@ -16,3 +16,8 @@ print("RSA Modulus: {}".format(n))
 
 r = (p-1)*(q-1)
 print("Eulers Toitent: {}".format(r))
+
+def egcd(e,r):
+    while(r!=0):
+        e,r=r,e%r
+    return e
