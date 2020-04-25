@@ -33,4 +33,5 @@ def egcd(e,r):
 def mult_inv(e,r):
  gcd,s,_=eea(e,r)
     if(gcd!=1):
-           
+    return None
+    else:    
