@@ -67,4 +67,4 @@ def eugcd(e,r):
         s = s-((a//b) * t)
        #         print("%d = %d*(%d) + (%d)*(%d)"%(gcd,a,t,s,b))
         return(gcd,t,s)
-
+public = (e,n)
