@@ -58,3 +58,4 @@ def eugcd(e,r):
 #                 print("{} = {}x{} + {}".format(r,a,e,b))
             r=e
             e=b
+  #Extended Euclidean Algorithm
