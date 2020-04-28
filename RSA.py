@@ -4,9 +4,6 @@ import maths # adding library
 p = 193  # intializing variable
 q = 197  # initializing variable
 
- 
-#RSA Modulus
-
 n = p * q # product of 2 numbers
 print("RSA Modulus: {}".format(n)) #print n in format of RSA modulus
 
@@ -47,3 +44,4 @@ Private and Public Keys
 '''CALCULATION OF 'd', PRIVATE KEY, AND PUBLIC KEY.'''
  print("EUCLID'S ALGORITHM:")
 eugcd(e,r)
+#Extended Euclidean Algorithm
