@@ -11,11 +11,11 @@ print("RSA Modulus: {}".format(n)) #print n in format of RSA modulus
 
 r = (p-1)*(q-1)
 print("Eulers Toitent: {}".format(r))
-#method define
-def egcd(e,r):   
+
+def egcd(e,r):   #method define
     while(r!=0): #checking condition
         e,r=r,e%r
-    return e #function returning value
+    return e #function returning the value
 
    def eugcd(e,r):          #defining function for gcd
     for i in range(1,r):    # for loop applied for euler process
@@ -41,7 +41,7 @@ for i in range(1,1000):
    print("The value of e is:",e)
 print("*****************************************************")
 Private and Public Keys
-''''CALCULATION OF 'd', PRIVATE KEY, AND PUBLIC KEY.''''
+'''CALCULATION OF 'd', PRIVATE KEY, AND PUBLIC KEY.'''
  print("EUCLID'S ALGORITHM:")
 eugcd(e,r)
 def egcd(e,r):
