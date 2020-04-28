@@ -60,3 +60,5 @@ def eugcd(e,r):
             e=b
   #Extended Euclidean Algorithm
   def eea(a,b):
+    if(a%b==0):
+        return(b,0,1)
