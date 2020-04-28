@@ -70,3 +70,5 @@ def eugcd(e,r):
 public = (e,n)
 private = (d,n)
 print("Private Key is:",private)
+print("Public Key is:",public)
+
