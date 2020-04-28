@@ -44,4 +44,4 @@ Private and Public Keys
 '''CALCULATION OF 'd', PRIVATE KEY, AND PUBLIC KEY.'''
  print("EUCLID'S ALGORITHM:")
 eugcd(e,r)
-#Extended Euclidean Algorithm
+def egcd(e,r):
