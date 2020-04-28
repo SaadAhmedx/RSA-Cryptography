@@ -48,3 +48,5 @@ def egcd(e,r):
   while(r!=0):
    e,r=r,e%r
   return e
+#Euclid's Algorithm
+def eugcd(e,r):
