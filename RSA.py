@@ -68,3 +68,4 @@ def eugcd(e,r):
        #         print("%d = %d*(%d) + (%d)*(%d)"%(gcd,a,t,s,b))
         return(gcd,t,s)
 public = (e,n)
+private = (d,n)
