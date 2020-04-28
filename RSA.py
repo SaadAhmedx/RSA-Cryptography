@@ -62,3 +62,6 @@ def eugcd(e,r):
   def eea(a,b):
     if(a%b==0):
         return(b,0,1)
+    else:
+        gcd,s,t = eea(b,a%b)
+        s = s-((a//b) * t)
