@@ -53,3 +53,8 @@ def eugcd(e,r):
   for i in range(1,r):
         while(e!=0):
             a,b=r//e,r%e
+      if(b!=0):
+                print("")
+#                 print("{} = {}x{} + {}".format(r,a,e,b))
+            r=e
+            e=b
