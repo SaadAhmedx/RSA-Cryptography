@@ -50,3 +50,6 @@ def egcd(e,r):
   return e
 #Euclid's Algorithm
 def eugcd(e,r):
+  for i in range(1,r):
+        while(e!=0):
+            a,b=r//e,r%e
