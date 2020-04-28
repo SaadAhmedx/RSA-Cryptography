@@ -71,4 +71,4 @@ public = (e,n)
 private = (d,n)
 print("Private Key is:",private)
 print("Public Key is:",public)
-
+d = mult_inv(e,r)
