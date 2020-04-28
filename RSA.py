@@ -59,3 +59,4 @@ def eugcd(e,r):
             r=e
             e=b
   #Extended Euclidean Algorithm
+  def eea(a,b):
