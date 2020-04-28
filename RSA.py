@@ -45,3 +45,4 @@ Private and Public Keys
  print("EUCLID'S ALGORITHM:")
 eugcd(e,r)
 def egcd(e,r):
+  while(r!=0):
