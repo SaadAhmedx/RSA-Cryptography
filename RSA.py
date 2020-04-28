@@ -46,3 +46,4 @@ Private and Public Keys
 eugcd(e,r)
 def egcd(e,r):
   while(r!=0):
+   e,r=r,e%r
