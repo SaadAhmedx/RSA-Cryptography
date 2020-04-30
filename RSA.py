@@ -80,7 +80,6 @@ private = (d,n)
 print("Private Key is:",private)
 print("Public Key is:",public)
 print("***************************************************")
-\
 #Decryption
 '''DECRYPTION ALGORITHM'''
 def decrypt(priv_key,c_text):
