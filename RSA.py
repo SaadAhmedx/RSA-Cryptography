@@ -110,3 +110,8 @@ elif(choose=='2'):
 print("Your decrypted message is:",decrypt(private,message))
     print("Thank you for using the RSA Encryptor. Goodbye!")
 else:
+ print("You entered the wrong option.")
+    print("Thank you for using the RSA Encryptor. Goodbye!")
+
+
+
