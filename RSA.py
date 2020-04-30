@@ -87,3 +87,8 @@ def decrypt(priv_key,c_text):
     d,n=priv_key
     txt=c_text.split(',')
     x=''
+m=0
+    for i in txt:
+        if(i=='400'):
+            x+=' '
+        else:
