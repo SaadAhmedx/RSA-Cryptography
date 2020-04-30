@@ -89,10 +89,10 @@ def decrypt(priv_key,c_text):
     x=''
 m=0
     for i in txt:
-        if(i=='400'):
+        if(i=='400'): #condition
             x+=' '
         else:
- m=(int(i)**d)%n
+ m=(int(i)**d)%n 
             m+=65
             c=chr(m)
             x+=c
