@@ -106,7 +106,7 @@ if(choose=='1'):  #checking condition
  enc_msg=encrypt(public,message)
     print("Your encrypted message is:",enc_msg)
     print("Thank you for using the RSA Encryptor. Goodbye!")
-elif(choose=='2'):
+elif(choose=='2'): #else if condition check
 print("Your decrypted message is:",decrypt(private,message))
     print("Thank you for using the RSA Encryptor. Goodbye!")
 else:
