@@ -39,7 +39,7 @@ for i in range(1,1000):
  if(egcd(i,r)==1):            #checking conditon 
         e=i
    print("The value of e is:",e)
-print("**************************************************")
+print("*************************************************")
 Private and Public Keys
 '''CALCULATION OF 'd', PRIVATE KEY, AND PUBLIC KEY.'''
  print("EUCLID'S ALGORITHM:")
