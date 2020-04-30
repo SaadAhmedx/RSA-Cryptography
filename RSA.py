@@ -97,3 +97,6 @@ m=0
             c=chr(m)
             x+=c
     return x
+#Message
+message = input("What would you like encrypted or decrypted?(Separate numbers with ',' for decryption):")
+print("Your message is:",message)
