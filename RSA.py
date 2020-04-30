@@ -100,3 +100,6 @@ m=0
 #Message
 message = input("What would you like encrypted or decrypted?(Separate numbers with ',' for decryption):")
 print("Your message is:",message)
+#Choose Encrypt or Decrypt and Print
+choose = input("Type '1' for encryption and '2' for decrytion.")
+if(choose=='1'):
