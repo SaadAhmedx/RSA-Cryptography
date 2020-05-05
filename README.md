@@ -13,6 +13,20 @@ This program is an implementation of the famous RSA Algorithm in **PYTHON**. In 
 
 ---
 
+## Running Instructions
+
+- Open the Jupyter Notebook & Run the RSA.IPYNB
+- Run the Cell By Pressing SHIFT + ENTER
+- Then It Will Ask You For Msg: ENTER YOUR MSG
+![Alt text](https://i.ibb.co/MCXR2bV/1.png "User Input")
+- Follow Instruction For Encryption/Encyption
+![Alt text](https://i.ibb.co/Nrkw4s0/2.png "Option Selection")
+- Your Encrypted Msg Look Like This
+![Alt text](https://i.ibb.co/9TrpDqC/3.png "Your Encrypted Msg")
+- Your Decrypted Msg Look Like This
+![Alt text](https://i.ibb.co/8s3NTWh/5.png "Your Decrypted Msg")
+
+
 ## Group Members
 
 ```
