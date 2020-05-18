@@ -3,7 +3,7 @@
 ###PROJECT MEMBERS###
 StdID | Name
 ------------ | -------------
-*62499** | **Saad Ahmed** <!--this is the group leader in bold-->
+**62499** | **Saad Ahmed** <!--this is the group leader in bold-->
 63152 | Syed Muhammad Mohtashim Kamal
 63687 | Ayesha Aamir 
 63008 | Muhammad Rafay
