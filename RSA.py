@@ -102,3 +102,23 @@ def decrypt(priv_key,c_text):
             c=chr(m)
             x+=c
     return x
+```
+#Message
+print("RSA ENCRYPTOR/DECRYPTOR")
+while True:
+    message = input("Enter Message:")
+    
+    if message != "N":
+        choose = input("1. FOR ENCRYPTION\n2. FOR DECRYPTION\n")
+        if(choose=='1'):
+            
+            print("{}\nYour encrypted message is: {}\n{}".format('*'*26, encrypt(public,message), '*'*26))
+        elif(choose=='2'):
+            print("{}\nYour decrypted message is: {}\n{}".format('*'*26, decrypt(private,message).replace("绒", " ").lower(), '*'*26))
+        else:
+            print("You entered the wrong option.")
+
+    else:
+        print(";)")
+        break;
+```
