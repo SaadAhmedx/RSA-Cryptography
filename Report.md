@@ -46,7 +46,7 @@ We have used different discrete Mathematics conscepts in our program, amongs the
             e=b
 ```
 ## Problems Faced ##
-Replace this text with the explaination of the problems you faced in the project, and how you resolved them. Again you can give each of your problems a heading of level 3.
+We didn't really face much problems while making this program as we all have worked on python before but the only thing which we found a bit difficult was using the different concepts/algorithms in one program. We first designed each algorithm and function separately then while combining them into one to make our program work was quite complicated but by the dedication of all members we solved everything perfectly as now you can see we have flawless and smooth running project.
 
 ### Problem 1: I don't know how to Code ###
 Transfer to yourself to social sciences department. Blah blah blah. This is an example. Replace it with your own problem description and how you resolved it. 
