@@ -35,10 +35,6 @@ Don't just blindly copy paste this report. This is a sample template file.
 If you were not able to convince your parents not to force you for degree and now you are doing it for them then do it with your best effort and not half heartedly. There is no point wasting this time with finding a loop hole here and there and passing courses without actually learning anything.  
 
 ## References ##
-- Mention and add [links](https://guides.github.com/features/mastering-markdown/), references, books, research papers, code samples, you used to get help in the project.
-- Use bullets like this.
-- Mention all references. Plagiarism will not be tolerated.
-- You see markdown is not that difficult.
-- You are CS students not some tom harry from BBA SHE-B-A :-).
-- You can and must learn to use markdown and Github. 
-- All future project development will be down in something similar to GITHUB
+Euler’s Totient https://www.youtube.com/watch?v=qa_hksAzpSg
+GCD https://www.youtube.com/watch?v=cahuG1cEQdY
+RSA Algorithm https://www.geeksforgeeks.org/rsa-algorithm-cryptography/
