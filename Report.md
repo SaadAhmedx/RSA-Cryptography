@@ -13,15 +13,37 @@ StdID | Name
 This program is an implementation of the famous RSA Algorithm in PYTHON. In this project we have used Euler’s Totient, Euclid's Algorithm, GCD for checking prime numbers, multiplicative inverse, encryption, and decryption. It was required to know and understand every step of the algorithm in a detailed manner. We learned to put together different functions, convert them from a mathematical perspective to a programmer perspective, and produce a completely different output.
 
 ## Discrete Math Concepts Used ##
-We have used different discrete Mathematics conscepts in our program, amongs them some of the most important one's are: Euler’s Totient, Euclid's Algorithm and GCD for checking prime numbers. As We all know RSA algorithm purely works on Prime numbers to generate keys. So all the mentioned concepts are used to make program workable.
-### Example 1: GCD ###
+We have used different discrete Mathematics conscepts in our program, amongs them some of the most important one's are: Multiplicative Inverse, Euler’s Totient, Euclid's Algorithm and GCD for checking prime numbers. As We all know RSA algorithm purely works on Prime numbers to generate keys. So all the mentioned concepts are used to make program workable.
+### Example 1: Multiplicative Inverse ###
+```def mult_inv(e,r):
+    gcd,s,_=eea(e,r)
+    if(gcd!=1):
+        return None
+    else:
+#         if(s<0):
+#             print("")           
+# #             print("s=%d. Since %d is less than 0, s = s(modr), i.e., s=%d."%(s,s,s%r))
+#         elif(s>0):
+#             print("")                
+# #             print("s=%d."%(s))
+        return s%r
+```
+### Example 2: GCD ###
 ```def egcd(e,r):
     while(r!=0):
         e,r=r,e%r
     return e
 ```
-### Example 2: Euclid's Algorithm ### 
-```
+### Example 3: Euclid's Algorithm ### 
+```def eugcd(e,r):
+    for i in range(1,r):
+        while(e!=0):
+            a,b=r//e,r%e
+            if(b!=0):
+                print("")
+#                 print("{} = {}x{} + {}".format(r,a,e,b))
+            r=e
+            e=b
 ```
 ## Problems Faced ##
 Replace this text with the explaination of the problems you faced in the project, and how you resolved them. Again you can give each of your problems a heading of level 3.
