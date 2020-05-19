@@ -10,7 +10,7 @@ StdID | Name
 63341 | Ghanwa Batool 
 <!-- Replace name and student ids with acutally group member names and ids-->
 ## Project Description ##
-Replace this text with the description of your project. Tell what the project was about. What you aimed to deliver in the project.
+This program is an implementation of the famous RSA Algorithm in PYTHON. In this project we have used Euler’s Totient, GCD, for checking prime numbers, multiplicative inverse, encryption, and decryption. It was required to know and understand every step of the algorithm in a detailed manner. We learned to put together different functions, convert them from a mathematical perspective to a programmer perspective, and produce a completely different output.
 
 ## Discrete Math Concepts Used ##
 Replace this text with the desription of where in the project you used which discrete math concepts and how it is playing its role to make your project work. You may use more 3rd level heading to categorize this portion of the report as shown below.
