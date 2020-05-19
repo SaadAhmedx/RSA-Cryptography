@@ -64,4 +64,41 @@ eugcd(e,r)
 d = mult_inv(e,r)
 public = (e,n)
 private = (d,n)
-```
+
+#Encryption
+'''ENCRYPTION ALGORITHM.'''
+def encrypt(pub_key,n_text):
+    e,n=pub_key
+    x=[]
+    m=0
+    for i in n_text:
+        if(i.isupper()):
+            m = ord(i)-65
+            c=(m**e)%n
+            x.append(c)
+        elif(i.islower()):               
+            m= ord(i)-97
+            c=(m**e)%n
+            x.append(c)
+        elif(i.isspace()):
+            spc=400
+            x.append(400)
+    return x
+     
+ 
+#Decryption
+'''DECRYPTION ALGORITHM'''
+def decrypt(priv_key,c_text):
+    d,n=priv_key
+    txt=c_text.split(',')
+    x=''
+    m=0
+    for i in txt:
+        if(i=='400'):
+            x+=' '
+        else:
+            m=(int(i)**d)%n
+            m+=65
+            c=chr(m)
+            x+=c
+    return x
