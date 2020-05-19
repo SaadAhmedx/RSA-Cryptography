@@ -13,7 +13,7 @@ StdID | Name
 This program is an implementation of the famous RSA Algorithm in PYTHON. In this project we have used Euler’s Totient, Euclid's Algorithm, GCD for checking prime numbers, multiplicative inverse, encryption, and decryption. It was required to know and understand every step of the algorithm in a detailed manner. We learned to put together different functions, convert them from a mathematical perspective to a programmer perspective, and produce a completely different output.
 
 ## Discrete Math Concepts Used ##
-We have used different discrete Mathematics conscepts in our program, amongs them some of the most important one's are: Multiplicative Inverse, Euler’s Totient, Euclid's Algorithm and GCD for checking prime numbers. As We all know RSA algorithm purely works on Prime numbers to generate keys. So all the mentioned concepts are used to make program workable.
+We have used different **Discrete Mathematics** concepts in our program, amongst them some of the most important one's are: Multiplicative Inverse, Euler’s Totient, Euclid's Algorithm and GCD for checking prime numbers. As We all know RSA algorithm purely works on Prime numbers to generate keys. So all the mentioned concepts are used to make program workable.
 ### Example 1: Multiplicative Inverse ###
 ```def mult_inv(e,r):
     gcd,s,_=eea(e,r)
@@ -46,14 +46,7 @@ We have used different discrete Mathematics conscepts in our program, amongs the
             e=b
 ```
 ## Problems Faced ##
-We didn't really face much problems while making this program as we all have worked on python before but the only thing which we found a bit difficult was using the different concepts/algorithms in one program. We first designed each algorithm and function separately then while combining them into one to make our program work was quite complicated but by the dedication of all members we solved everything perfectly as now you can see we have flawless and smooth running project.
-
-### Problem 1: I don't know how to Code ###
-Transfer to yourself to social sciences department. Blah blah blah. This is an example. Replace it with your own problem description and how you resolved it. 
-Don't just blindly copy paste this report. This is a sample template file. 
-
-### Problem 2: My Parents forced me for a degree ###
-If you were not able to convince your parents not to force you for degree and now you are doing it for them then do it with your best effort and not half heartedly. There is no point wasting this time with finding a loop hole here and there and passing courses without actually learning anything.  
+We didn't really face much problems while making this program as we all have worked on python before and all the concepts which are used in our program were well explained in classes but the only thing which we found a bit difficult was using the different concepts/algorithms in one program. We first designed each algorithm and function separately then while combining them into one to make our program work was quite complicated but by the dedication of all members we solved everything perfectly as now you can see we have flawless and smooth running project.
 
 ## References ##
 - Euler’s Totient https://www.youtube.com/watch?v=qa_hksAzpSg
