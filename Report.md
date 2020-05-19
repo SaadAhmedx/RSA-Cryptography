@@ -46,7 +46,7 @@ We have used different **Discrete Mathematics** concepts in our program, amongst
             e=b
 ```
 ## Problems Faced ##
-We didn't really face much problems while making this program as we all have worked on python before and all the concepts which are used in our program were well explained in classes but the only thing which we found a bit difficult was using the different concepts/algorithms in one program. We first designed each algorithm and function separately then while combining them into one to make our program work was a quite complicated task but by the dedication of all members we solved everything perfectly as now you can see we have flawless and smooth running project.
+We didn't really face much problems while making this program as we all have worked on PYTHON before and all the concepts which are used in our program were well explained in classes but the only thing which we found a bit difficult was using the different concepts/algorithms in one program. We first designed each algorithm and function separately then while combining them into one to make our program work was a quite complicated task but by the dedication of all members we solved everything perfectly as now you can see we have flawless and smooth running project.
 
 ## References ##
 - Euler’s Totient https://www.youtube.com/watch?v=qa_hksAzpSg
