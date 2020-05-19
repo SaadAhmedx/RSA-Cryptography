@@ -35,6 +35,6 @@ Don't just blindly copy paste this report. This is a sample template file.
 If you were not able to convince your parents not to force you for degree and now you are doing it for them then do it with your best effort and not half heartedly. There is no point wasting this time with finding a loop hole here and there and passing courses without actually learning anything.  
 
 ## References ##
--Euler’s Totient https://www.youtube.com/watch?v=qa_hksAzpSg
--GCD https://www.youtube.com/watch?v=cahuG1cEQdY
--RSA Algorithm https://www.geeksforgeeks.org/rsa-algorithm-cryptography/
+- Euler’s Totient https://www.youtube.com/watch?v=qa_hksAzpSg
+- GCD https://www.youtube.com/watch?v=cahuG1cEQdY
+- RSA Algorithm https://www.geeksforgeeks.org/rsa-algorithm-cryptography/
