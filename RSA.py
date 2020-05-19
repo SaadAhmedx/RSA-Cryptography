@@ -43,3 +43,25 @@ def eea(a,b):
 #         print("%d = %d*(%d) + (%d)*(%d)"%(gcd,a,t,s,b))
         return(gcd,t,s)
 
+#Multiplicative Inverse
+def mult_inv(e,r):
+    gcd,s,_=eea(e,r)
+    if(gcd!=1):
+        return None
+    else:
+#         if(s<0):
+#             print("")           
+# #             print("s=%d. Since %d is less than 0, s = s(modr), i.e., s=%d."%(s,s,s%r))
+#         elif(s>0):
+#             print("")                
+# #             print("s=%d."%(s))
+        return s%r
+'''FINDS THE HIGHEST POSSIBLE VALUE OF 'e' BETWEEN 1 and 1000 THAT MAKES (e,r) COPRIME.'''
+for i in range(1,1000):
+    if(egcd(i,r)==1):
+        e=i
+eugcd(e,r)
+d = mult_inv(e,r)
+public = (e,n)
+private = (d,n)
+```
