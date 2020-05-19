@@ -10,20 +10,19 @@ StdID | Name
 63341 | Ghanwa Batool 
 <!-- Replace name and student ids with acutally group member names and ids-->
 ## Project Description ##
-This program is an implementation of the famous RSA Algorithm in PYTHON. In this project we have used Euler’s Totient, GCD, for checking prime numbers, multiplicative inverse, encryption, and decryption. It was required to know and understand every step of the algorithm in a detailed manner. We learned to put together different functions, convert them from a mathematical perspective to a programmer perspective, and produce a completely different output.
+This program is an implementation of the famous RSA Algorithm in PYTHON. In this project we have used Euler’s Totient, Euclid's Algorithm, GCD for checking prime numbers, multiplicative inverse, encryption, and decryption. It was required to know and understand every step of the algorithm in a detailed manner. We learned to put together different functions, convert them from a mathematical perspective to a programmer perspective, and produce a completely different output.
 
 ## Discrete Math Concepts Used ##
-Replace this text with the desription of where in the project you used which discrete math concepts and how it is playing its role to make your project work. You may use more 3rd level heading to categorize this portion of the report as shown below.
-
-### Example 1: Replace with Your Own ###
-And you may also add code samples from your project to support your description. 
-```C++
-#include <stdio.h>
-int main(int argc, char* argv[]){
-    printf("You may add some code of your liking if you want to support your description");
-}
+We have used different discrete Mathematics conscepts in our program, amongs them some of the most important one's are: Euler’s Totient, Euclid's Algorithm and GCD for checking prime numbers. As We all know RSA algorithm purely works on Prime numbers to generate keys. So all the mentioned concepts are used to make program workable.
+### Example 1: GCD ###
+```def egcd(e,r):
+    while(r!=0):
+        e,r=r,e%r
+    return e
 ```
-
+### Example 2: Euclid's Algorithm ### 
+```
+```
 ## Problems Faced ##
 Replace this text with the explaination of the problems you faced in the project, and how you resolved them. Again you can give each of your problems a heading of level 3.
 
