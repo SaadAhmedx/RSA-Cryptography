@@ -102,7 +102,7 @@ def decrypt(priv_key,c_text):
             c=chr(m)
             x+=c
     return x
-```
+
 #Message
 print("RSA ENCRYPTOR/DECRYPTOR")
 while True:
@@ -121,4 +121,4 @@ while True:
     else:
         print(";)")
         break;
-```
+
