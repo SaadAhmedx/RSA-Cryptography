@@ -16,8 +16,10 @@ This program is an implementation of the famous RSA Algorithm in PYTHON. In this
 We have used different **Discrete Mathematics** concepts in our program, amongst them some of the most important one's are: Multiplicative Inverse, Euler’s Totient, Euclid's Algorithm and GCD for checking prime numbers. As We all know RSA algorithm purely works on Prime numbers to generate keys. So all the mentioned concepts are used to make program workable.
 
 ### Example 1: Check Prime ###
+
+```
 ''' This is simple function that check the value of p,q if the values are PRIME OR NOT '''
-```def prime_check(a):
+def prime_check(a):
     if(a==2):
         return True
     elif((a<2) or ((a%2)==0)):
@@ -30,8 +32,10 @@ We have used different **Discrete Mathematics** concepts in our program, amongst
 ```
 
 ### Example 2: Euclid's Algorithm ### 
+
+```
 '''Euclid's Algorithm Code will take to paramter e,r,  run loop to the range of r & assigning  Floor division value to a & Modulus to b '''
-```def eugcd(e,r):
+def eugcd(e,r):
     for i in range(1,r):
         while(e!=0):
             a,b=r//e,r%e
@@ -40,7 +44,7 @@ We have used different **Discrete Mathematics** concepts in our program, amongst
             r=e
  ```       
 ### Example 3: Encryption ###
-
+```
 ''' In ENCRYPTION ALGORITHM the encrypt function simple take our input as parameter encrypt the msg & stored in the array'''
 def encrypt(pub_key,n_text):
     e,n=pub_key
