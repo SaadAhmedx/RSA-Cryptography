@@ -108,4 +108,25 @@ byeMessage = "\n\n[~]THANKS FOR USING RSA ENCRYPTOR/DECRYPTOR[~]"
 for i in range(len(Message)):
     print(Message[i], end="")
     time.sleep(0.1)
+```
+while True:
+    print("\n[!]Enter n if you dont want to use it")
+    message = input("[+]Enter ENCRYPTED/DECRYPTED Message:")
+    
+    if message.lower() != "n":
+        choose = input("[+]Enter your option[+]\n\n1. FOR ENCRYPTION\n2. FOR DECRYPTION\n")
+        if(choose=='1'):
+            
+            print("{}\nYour encrypted message is: {}\n{}".format('*'*26, str(encrypt(public,message)).replace('[', "").replace(']', ""), '*'*26))
+        elif(choose=='2'):
+            print("{}\nYour decrypted message is: {}\n{}".format('*'*26, decrypt(private,message).replace("绒", " ").lower(), '*'*26))
+        else:
+            print("You entered the wrong option.")
+
+    else:
+        for i in range(len(byeMessage)):
+            print(byeMessage[i], end="")
+            time.sleep(0.1)
+        break;
+```
 
