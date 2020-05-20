@@ -14,36 +14,51 @@ This program is an implementation of the famous RSA Algorithm in PYTHON. In this
 
 ## Discrete Math Concepts Used ##
 We have used different **Discrete Mathematics** concepts in our program, amongst them some of the most important one's are: Multiplicative Inverse, Euler’s Totient, Euclid's Algorithm and GCD for checking prime numbers. As We all know RSA algorithm purely works on Prime numbers to generate keys. So all the mentioned concepts are used to make program workable.
-### Example 1: Multiplicative Inverse ###
-```def mult_inv(e,r):
-    gcd,s,_=eea(e,r)
-    if(gcd!=1):
-        return None
-    else:
-#         if(s<0):
-#             print("")           
-# #             print("s=%d. Since %d is less than 0, s = s(modr), i.e., s=%d."%(s,s,s%r))
-#         elif(s>0):
-#             print("")                
-# #             print("s=%d."%(s))
-        return s%r
+
+### Example 1: Check Prime ###
+```def prime_check(a):
+    if(a==2):
+        return True
+    elif((a<2) or ((a%2)==0)):
+        return False
+    elif(a>2):
+        for i in range(2,a):
+            if not(a%i):
+                return false
+    return True
 ```
-### Example 2: GCD ###
-```def egcd(e,r):
-    while(r!=0):
-        e,r=r,e%r
-    return e
-```
-### Example 3: Euclid's Algorithm ### 
+
+### Example 2: Euclid's Algorithm ### 
 ```def eugcd(e,r):
     for i in range(1,r):
         while(e!=0):
             a,b=r//e,r%e
             if(b!=0):
                 print("")
-#                 print("{} = {}x{} + {}".format(r,a,e,b))
             r=e
-            e=b
+ ```       
+### Example 3: Encryption ###
+```
+'''ENCRYPTION ALGORITHM.'''
+def encrypt(pub_key,n_text):
+    e,n=pub_key
+    x=[]
+    m=0
+    for i in n_text:
+        if(i.isupper()):
+            m = ord(i)-65
+            c=(m**e)%n
+            x.append(c)
+        elif(i.islower()):               
+            m= ord(i)-97
+            c=(m**e)%n
+            x.append(c)
+        elif(i.isspace()):
+            spc=400
+            x.append(400)
+    return x
+
+
 ```
 ## Problems Faced ##
 We didn't really face much problems while making this program as we all have worked on PYTHON before and all the concepts which are used in our program were well explained in classes but the only thing which we found a bit difficult was using the different concepts/algorithms in one program. We first designed each algorithm and function separately then while combining them into one to make our program work was a quite complicated task but by the dedication of all members we solved everything perfectly as now you can see we have flawless and smooth running program.
