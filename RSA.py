@@ -103,22 +103,9 @@ def decrypt(priv_key,c_text):
         print("Oopss Invalid Encrypted Message")
         sys.exit(1)
 
-#Message
-print("RSA ENCRYPTOR/DECRYPTOR")
-while True:
-    message = input("Enter Message:")
-    
-    if message != "N":
-        choose = input("1. FOR ENCRYPTION\n2. FOR DECRYPTION\n")
-        if(choose=='1'):
-            
-            print("{}\nYour encrypted message is: {}\n{}".format('*'*26, encrypt(public,message), '*'*26))
-        elif(choose=='2'):
-            print("{}\nYour decrypted message is: {}\n{}".format('*'*26, decrypt(private,message).replace("绒", " ").lower(), '*'*26))
-        else:
-            print("You entered the wrong option.")
-
-    else:
-        print(";)")
-        break;
+Message = "[~]WELCOME TO RSA ENCRYPTOR/DECRYPTOR[~]\n"
+byeMessage = "\n\n[~]THANKS FOR USING RSA ENCRYPTOR/DECRYPTOR[~]"
+for i in range(len(Message)):
+    print(Message[i], end="")
+    time.sleep(0.1)
 
