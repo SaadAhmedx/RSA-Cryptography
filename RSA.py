@@ -87,15 +87,21 @@ def decrypt(priv_key,c_text):
     txt=c_text.split(',')
     x=''
     m=0
-    for i in txt:
-        if(i=='400'):
-            x+=' '
-        else:
-            m=(int(i)**d)%n
-            m+=65
-            c=chr(m)
-            x+=c
-    return x
+    try:
+        for i in txt:
+            if(i=='400'):
+                x+=' '
+            else:
+                m=(int(i)**d)%n
+                m+=65
+                c=chr(m)
+                x+=c
+
+        return x
+    
+    except:
+        print("Oopss Invalid Encrypted Message")
+        sys.exit(1)
 
 #Message
 print("RSA ENCRYPTOR/DECRYPTOR")
