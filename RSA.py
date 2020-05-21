@@ -1,5 +1,7 @@
-
+import time 
 import math
+import sys
+
 p = 193
 q = 197
 def prime_check(a):
