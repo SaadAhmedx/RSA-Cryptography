@@ -1,4 +1,8 @@
 ## RSA-Cryptography
+
+
+![Alt text](https://i.ibb.co/B6Kt9r0/4.png "RSA-Cryptography")
+
 ---
 
 ## Description
@@ -15,16 +19,19 @@ This program is an implementation of the famous RSA Algorithm in **PYTHON**. In 
 
 ## Running Instructions
 
-- Open the Jupyter Notebook & Run the RSA.IPYNB
+- If you dont have any python compiler you can use online python compiler to execute this programs
+- Just go to this link https://mybinder.org/v2/gh/jupyterlab/jupyterlab-demo/try.jupyter.org wait for the load. Once load then click on new & select Python check the attached picture
+![Alt text](https://i.ibb.co/8MGMx95/Capture.png "Online Python compiler")
+- Now go to this link https://raw.githubusercontent.com/SaadAhmedx/RSA-Cryptography/master/RSA.py copy all the code paste in the jupyter notebook cell
 - Run the Cell By Pressing SHIFT + ENTER
 - Then It Will Ask You For Msg: ENTER YOUR MSG
-![Alt text](https://i.ibb.co/MCXR2bV/1.png "User Input")
-- Follow Instruction For Encryption/Encyption
-![Alt text](https://i.ibb.co/Nrkw4s0/2.png "Option Selection")
+![Alt text](https://i.ibb.co/wMWL5x3/1.png "User Input")
+- Once you enter the msg then follow instruction for Encryption/Decryption
 - Your Encrypted Msg Look Like This
-![Alt text](https://i.ibb.co/9TrpDqC/3.png "Your Encrypted Msg")
+![Alt text](https://i.ibb.co/zXsFkpY/2.png "Your Encrypted Msg")
+- Now it will again ask you for msg this time enter the Encrypted message & press 2 for Decryption
 - Your Decrypted Msg Look Like This
-![Alt text](https://i.ibb.co/8s3NTWh/5.png "Your Decrypted Msg")
+![Alt text](https://i.ibb.co/F65Bffp/3.png "Your Decrypted Msg")
 
 
 ## Group Members
