@@ -1,14 +1,16 @@
 # DM 103347: RSA Cryptography #
-<!-- Replace XX with your course ID-->
+
+![Alt text](https://i.ibb.co/B6Kt9r0/4.png "RSA-Cryptography")
+
 ### PROJECT MEMBERS ###
 StdID | Name
 ------------ | -------------
-**62499** | **Saad Ahmed** <!--this is the group leader in bold-->
+**62499** | **Saad Ahmed** 
 63152 | Syed Muhammad Mohtashim Kamal
 63687 | Ayesha Aamir 
 63008 | Muhammad Rafay
 63341 | Ghanwa Batool 
-<!-- Replace name and student ids with acutally group member names and ids-->
+
 ## Project Description ##
 This program is an implementation of the famous RSA Algorithm in PYTHON. In this project we have used Euler’s Totient, Euclid's Algorithm, GCD for checking prime numbers, multiplicative inverse, encryption, and decryption. It was required to know and understand every step of the algorithm in a detailed manner. We learned to put together different functions, convert them from a mathematical perspective to a programmer perspective, and produce a completely different output.
 
