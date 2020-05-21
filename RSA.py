@@ -108,7 +108,7 @@ byeMessage = "\n\n[~]THANKS FOR USING RSA ENCRYPTOR/DECRYPTOR[~]"
 for i in range(len(Message)):
     print(Message[i], end="")
     time.sleep(0.1)
-```
+
 while True:
     print("\n[!]Enter n if you dont want to use it")
     message = input("[+]Enter ENCRYPTED/DECRYPTED Message:")
@@ -128,5 +128,4 @@ while True:
             print(byeMessage[i], end="")
             time.sleep(0.1)
         break;
-```
 
