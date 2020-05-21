@@ -28,7 +28,7 @@ This program is an implementation of the famous RSA Algorithm in **PYTHON**. In 
 ![Alt text](https://i.ibb.co/wMWL5x3/1.png "User Input")
 - Once you enter the msg then follow instruction for Encryption/Decryption
 - Your Encrypted Msg Look Like This
-![Alt text](https://i.ibb.co/zXsFkpY/2.png "Your Encrypted Msg")
+![Alt text](https://i.ibb.co/zXsFkpY/2.png "Your Encrypted Msg ")
 - Now it will again ask you for msg this time enter the Encrypted message & press 2 for Decryption
 - Your Decrypted Msg Look Like This
 ![Alt text](https://i.ibb.co/F65Bffp/3.png "Your Decrypted Msg")
